@@ -1,0 +1,21 @@
+---
+# String with single moving fret and striker on either side
+name: "DualStrikeString"
+
+# Copied to each instrument
+tags:
+  - "String"
+  - "Invertable"
+
+# Motion limits of stepper motor
+position_min: -4000
+position_max: 4000
+
+# position_min: -1500
+# position_max: 1500
+
+# Stepper delay (uS)
+step_delay: 9090
+
+# Solenoid Duration (uS)
+solenoid_dur: 6000

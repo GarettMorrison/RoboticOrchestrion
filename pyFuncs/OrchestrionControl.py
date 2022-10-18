@@ -17,6 +17,7 @@ import random as r
 import serial.tools.list_ports
 
 
+
 SERIAL_PORT = 'COM7'
 port = None
 
